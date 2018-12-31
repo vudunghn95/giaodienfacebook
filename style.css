@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 55% 45%;
+	font-family: Arial, sans-serif;
+}
+.header{
+	background-color: #3c5a98;
+	display: flex;
+	height: 82px;
+}
+.header-left{
+	width: 55%;
+}
+.header-right{
+	width: 45%;
+}
+.header,.footer{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.main{
+	background:linear-gradient(white, #D3D8E8);
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	padding-top: 40px;
+	padding-left: 184.5px;
+}
+.main .quote{
+	width: 450px;
+}
+.footer .languages .languages-list{
+	display: flex;
+	list-style-type: none;
+	height: 50px;
+	width: 75%;
+	margin-left: 184.5px;
+	align-items: center;
+	border-bottom: 1px solid #AAA;
+	margin-bottom: 10px;
+}
+.footer .languages .languages-list .item-vi a{
+	font-size: 12px;
+	color: #777777;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.footer .languages .languages-list .item a{
+	font-size: 12px;
+	color: #365899;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.footer .languages .languages-list .item a:hover{
+	text-decoration: underline;
+}
+.footer .service {
+	width: 100%;
+}
+.footer .service .service-list{
+		
+	list-style-type: none;
+	width: 75%;
+	margin-left: 184.5px;
+	margin-bottom: 30px;
+}
+.footer .service .service-list .item{
+	display: inline-block;
+}
+.footer .service .service-list .item a{
+	font-size: 12px;
+	color: #365899;
+	text-decoration: none;
+	margin-right: 15px;
+}
+.footer .service .service-list .item a:hover{
+	text-decoration: underline;
+}
+.source{
+	font-size: 11px;
+	color: #777777;
+	margin-left: 184.5px;
+	margin-bottom: 20px;
+}
+.source i{
+	font-size: 8px; 
+}
