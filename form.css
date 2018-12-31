@@ -1,0 +1,118 @@
+.register{
+	font-family: Arial, sans-serif;
+	background:linear-gradient(white, #D3D8E8);
+	padding: 20px 5px;
+}
+.register .label-form-a{
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 7px;
+}
+.register .label-form-b{
+	color: #333;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+.register .register-name .ho{
+	width: 190px;
+	height: 40px;
+	border-radius: 5px;
+	border-color: #333;
+	border-width: 1px;
+	font-size: 18px;
+	color: #999999;
+	padding-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+.register .phone{
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	border-color: #bdc7d8;
+	border-width: 1px;
+	font-size: 18px;
+	color: #999999;
+	padding-left: 7px;
+	margin-bottom: 10px;
+}
+.register .register-birthday .label{
+	color: #333;
+	font-size: 19px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.register .register-birthday .label-birth{
+	height: 25px;
+	font-size: 14px;
+	margin-bottom: 15px;
+	margin-right: 3px;
+}
+.register .register-birthday .register-select{
+	display: flex;
+}
+.register .register-birthday .register-select .label-info{
+	margin-left: 7px;
+	width: 150px;
+	height: 25px;
+	line-height: 0.9;
+}
+.register .register-birthday .register-select .label-info a{
+	font-size: 11px;
+	text-decoration: none;
+	color: #365899;
+}
+.register .register-birthday .register-select .label-info a:hover{
+	text-decoration: underline;
+}
+.register .register-gender{
+	color: #333;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	font-size: 17px;
+}
+.register .register-gender label{
+	margin-right: 15px;
+
+}
+.register .register-rules{
+	font-size: 11px;
+	color: #777777;
+	width: 315px;
+	margin-bottom: 20px;
+	line-height: 1.4;
+}
+.register .register-rules a{
+	text-decoration: none;
+	color: #365899;
+}
+.register .register-rules a:hover{
+	text-decoration: underline;
+}
+.register .register-submit{
+	height: 39px;
+	width: 194px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 5px;
+	background: linear-gradient(#67ae55, #578843);
+	border-color: #ffffff #3b6e22 #2c5115;
+	border-width: 0.5px;
+	margin-bottom: 30px;
+}
+.register .register-page{
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	width: 350px;
+	margin-bottom: 25px;
+}
+.register .register-page a{
+	text-decoration: none;
+	color: #365899;
+}
+.register .register-page a:hover{
+	text-decoration: underline;
+}
